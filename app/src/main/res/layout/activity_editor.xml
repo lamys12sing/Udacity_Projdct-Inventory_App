@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/EditorCategoryStyle"
+            android:layout_weight="1"
+            android:text="@string/product" />
+
+        <EditText
+            android:id="@+id/editText_product"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="4"
+            android:hint="@string/product_name"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/EditorCategoryStyle"
+            android:layout_weight="1"
+            android:text="@string/price" />
+
+        <EditText
+            android:id="@+id/editText_price"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="4"
+            android:hint="@string/price"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/EditorCategoryStyle"
+            android:layout_weight="1"
+            android:text="@string/quantity" />
+
+        <EditText
+            android:id="@+id/editText_quantity"
+            style="@style/EditorFieldStyle"
+            android:layout_weight="2"
+            android:hint="@string/quantity"
+            android:inputType="number"/>
+
+        <ImageButton
+            android:id="@+id/imageButton_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_edit_add" />
+
+        <ImageButton
+            android:id="@+id/imageButton_less"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_edit_less" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="order"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black" />
+</LinearLayout>

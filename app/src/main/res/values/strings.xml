@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="product">Product</string>
+    <string name="product_name">Product\'s name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="delete_error">Error with deleting product</string>
+    <string name="delete_success">Product deleted</string>
+    <string name="delete_dialog_message">Delete this product?</string>
+    <string name="delete_all_dialog_message">Are you sure delete all products?</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_add_a_product">No product currently!!Please add a product.</string>
+    <string name="add_a_product">Add a Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="save_error">Error with saving product</string>
+    <string name="save_success">Product saved</string>
+    <string name="unsaved_change_dialog_message">Discard your change and quite editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+</resources>
